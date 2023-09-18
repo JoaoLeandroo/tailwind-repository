@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Responsive</title>
+</head>
+<body class="w-screen h-screen flex items-center justify-center gap-2">
+    <!-- 
+        sm: min-width: 640px;
+        md: 768;
+        lg: 1024;
+        xl: 1280;
+        2xl: 1536; 
+     -->
+
+     <div class="w-[300px] h-[300px] rounded-full border border-solid border-black sm:bg-red-500 md:bg-yellow-400 lg:bg-green-400 xl:bg-pink-600 2xl:bg-purple-700 flex items-center justify-center gap-1">
+        <p class="text-white font-bold hidden sm:block">640px</p>
+        <p class="text-white font-bold hidden md:block">768px</p>
+        <p class="text-white font-bold hidden lg:block">1024px</p>
+        <p class="text-white font-bold hidden xl:block">1280px</p>
+        <p class="text-white font-bold hidden 2xl:block">1536px</p>
+     </div>
+
+
+</body>
+</html>
